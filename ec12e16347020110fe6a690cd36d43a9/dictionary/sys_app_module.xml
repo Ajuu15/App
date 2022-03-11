@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="no_list_protection=true,update_synch=true" audit="true" extends="sys_metadata" label="Module" max_length="40" name="sys_app_module" read_roles="admin" sizeclass="2122" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="pass" max_length="40" name="u_pass" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="phone" max_length="40" name="u_phone" type="string"/>
+    </element>
+</database>
